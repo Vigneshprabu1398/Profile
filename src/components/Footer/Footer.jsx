@@ -4,7 +4,7 @@ import style from "./footer.module.css"
 function Footer() {
     return (
       <div className={style.footerbody}>
-        <p>© 2022 Inspired by Huxly Gerad Singh</p>
+        <p>© 2022 Developed by Vigneshprabu</p>
       </div>
     );
 }

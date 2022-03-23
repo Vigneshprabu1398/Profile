@@ -2,10 +2,16 @@ import React, { useEffect, useState } from "react";
 import style from "./project1.module.css";
 
 import youtube from "./youtube.svg"
-import img1 from "./Shopper-stop-1.png";
-import img2 from "./Shopper-stop-2.png";
-import img3 from "./Shopper-stop-3.png";
-import img4 from "./Shopper-stop-4.png";
+import img1 from "./dunzo1.png";
+import img2 from "./dunzo2.png";
+import img3 from "./dunzo3.png";
+import img4 from "./dunzo4.png";
+import img5 from "./dunzo5.png";
+import img6 from "./dunzo6.png";
+import img7 from "./dunzo7.png";
+import img8 from "./dunzo8.png";
+import img9 from "./dunzo9.png";
+import img10 from "./dunzo10.png";
 import left from "./left.gif";
 import right from "./right.gif";
 
@@ -27,6 +33,30 @@ const Project1 = () => {
     {
       id: 3,
       image: img4,
+    },
+    {
+      id: 4,
+      image: img4,
+    },
+    {
+      id: 5,
+      image: img5,
+    },
+    {
+      id: 6,
+      image: img6,
+    },
+    {
+      id: 7,
+      image: img7,
+    },
+    {
+      id: 8,
+      image: img8,
+    },
+    {
+      id: 9,
+      image: img9,
     },
   ];
 
@@ -74,24 +104,23 @@ const Project1 = () => {
             fontWeight: "bolder",
           }}
         >
-          Shopper-stop clone
+          Dunzo clone
         </h2>
         <p>
-          Shopper-stop is an E-commerce website where we can buy new dresses
-          online.You can filter the dresses by Brands, costs, Price Range
-          etc..You can add the items in carts and wishlist then buy the products
-          by checking out.
+          Dunzo is a site where we are able to buy grocerires,food and book a bike for 
+          going to a paticular destination. This site is show's us the availability of 
+          the department store's and restaurants in our location all these are been available under one roof. 
         </p>
 
         <h3 style={{ color: "#B37D4E" }}>Tech stack:</h3>
-        <p>HTML | CSS | JAVASCRIPT | EJS | MONGODB | EXPRESS | NODEJS</p>
+        <p>HTML | CSS | JavaScript | Mongo DB | Express JS | Node JS</p>
 
         <div className={style.btndivv}>
           <button className={style.btnpro} style={{ backgroundColor: "black" }}>
             <a
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
-              href="https://github.com/huxly123/ShopperStop-clone"
+              href="https://github.com/Vigneshprabu1398/DunzoCloneBackend"
             >
               <span>
                 <svg
@@ -122,7 +151,7 @@ const Project1 = () => {
             style={{ backgroundColor: "#286DAB" }}
           >
             <a
-              href="https://shoppers-stop-com.herokuapp.com/"
+              href="https://sid283.github.io/dunzo_clone/homepage/index.html"
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
             >
@@ -157,23 +186,8 @@ const Project1 = () => {
               className={style.anch}
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
-              href="https://www.youtube.com/watch?v=FVEmW9rnbyA&t=11s"
+              href="https://drive.google.com/file/d/1nDlauZh2lIvgmGKNJRt4F3so08L6SLKl/view?usp=sharing"
             >
-              <span>
-                <img
-                  src={youtube}
-                  style={{
-                    color: "white",
-                    marginTop: "-2px",
-                    position: "absolute",
-                    left: "0",
-
-                    width: "1.5em",
-                    height: "1.5em",
-                    marginLeft: "8px",
-                  }}
-                ></img>
-              </span>
               Demo
             </a>
           </button>

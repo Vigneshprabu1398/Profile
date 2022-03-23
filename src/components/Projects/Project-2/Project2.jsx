@@ -1,9 +1,15 @@
 import React, { useEffect, useState } from "react";
 import youtube from "./youtube.svg"
-import img1 from "./caddy0.png";
-import img2 from "./caddy1.png";
-import img3 from "./caddy2.png";
-import img4 from "./caddy3.png";
+import img1 from "./dermstore1.png";
+import img2 from "./dermstore2.png";
+import img3 from "./dermstore3.png";
+import img4 from "./dermstore4.png";
+import img5 from "./dermstore5.png";
+import img6 from "./dermstore6.png";
+import img7 from "./dermstore7.png";
+import img8 from "./dermstore8.png";
+import img9 from "./dermstore9.png";
+import img10 from "./dermstore10.png";
 import left from "./left.gif";
 import right from "./right.gif";
 import style from "./project2.module.css"
@@ -26,6 +32,30 @@ const Project2 = () => {
     {
       id: 3,
       image: img4,
+    },
+    {
+      id: 4,
+      image: img4,
+    },
+    {
+      id: 5,
+      image: img5,
+    },
+    {
+      id: 6,
+      image: img6,
+    },
+    {
+      id: 7,
+      image: img7,
+    },
+    {
+      id: 8,
+      image: img8,
+    },
+    {
+      id: 9,
+      image: img9,
     },
   ];
 
@@ -73,23 +103,23 @@ const Project2 = () => {
             fontWeight: "bolder",
           }}
         >
-          Caddy cool
+          Dermstore
         </h2>
         <p>
-          Caddy cool is a Diabetes Management mobile website used to track the
-          pills to take daily and join various groups to get information and
-          allow to join the various contests.
+          Dermstore is a online ecommerce website where we are able to 
+          purchase all the skin and hair care products,They also provide all types of beauty products.
+          All the products that brought from this site is deliverd at door step.
         </p>
 
         <h3 style={{ color: "#B37D4E" }}>Tech stack:</h3>
-        <p>React | CSS | JavaScript | Mongo DB | Express JS | Node JS</p>
+        <p>HTML | CSS | JavaScript |</p>
 
         <div className={style.btndivv}>
           <button className={style.btnpro} style={{ backgroundColor: "black" }}>
             <a
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
-              href="https://github.com/huxly123/Caddy-cool"
+              href="https://github.com/Vigneshprabu1398/dermstore"
             >
               <span>
                 <svg
@@ -122,7 +152,7 @@ const Project2 = () => {
               className={style.anch}
               style={{ textDecoration: "none", color: "white" }}
               target="_blank"
-              href="https://caddycool.vercel.app/"
+              href="https://practical-curran-e48460.netlify.app/"
             >
               <span>
                 <svg
@@ -152,25 +182,10 @@ const Project2 = () => {
           <button className={style.btnpro} style={{ backgroundColor: "red" }}>
             <a
               className={style.anch}
-              style={{ textDecoration: "none", color: "white" }}
+              style={{ textDecoration: "none", color: "white"}}
               target="_blank"
-              href="https://www.youtube.com/watch?v=NiTktyfhLN4"
+              href="https://drive.google.com/file/d/1skKnDIQd2UbkAugeDm2xwXB3H0RrOqUO/view?usp=sharing"
             >
-              <span>
-                <img
-                  src={youtube}
-                  style={{
-                    color: "white",
-                    marginTop: "-2px",
-                    position: "absolute",
-                    left: "0",
-
-                    width: "1.5em",
-                    height: "1.5em",
-                    marginLeft: "8px",
-                  }}
-                ></img>
-              </span>
               Demo
             </a>
           </button>

@@ -12,6 +12,8 @@ function About() {
         contributing to the tech community.Love to dance and participated in
         many western group dance competitions.{" "}
       </div>
+      <br></br>
+      <br></br>
 
       <div className={style.aboutflex} style={{ marginTop: "10px" }}>
         <div style={{ position: "relative" }}>

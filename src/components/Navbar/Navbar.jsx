@@ -17,11 +17,11 @@ function Navbar() {
         <a href="#about" className={style.a2}>
           About
         </a>
-        <a href="#project" className={style.a3}>
-          Project
-        </a>
         <a href="#skills" className={style.a4}>
           Skills
+        </a>
+        <a href="#project" className={style.a3}>
+          Project
         </a>
         <a href="#contact" className={style.a5}>
           Contact
